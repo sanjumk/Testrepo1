@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Academy.E2Eproject.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Testtopnav(failed)">
+    <classes>
+      <class name="Academy.E2Eproject.VerifyNavbar">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2Eproject.VerifyNavbar -->
+    </classes>
+  </test> <!-- Testtopnav(failed) -->
+</suite> <!-- Failed suite [Suite] -->
